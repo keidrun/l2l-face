@@ -1,0 +1,37 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+def compatibility = 1.8
+def defaultEncoding = 'UTF-8'
+
+sourceCompatibility = compatibility
+targetCompatibility = compatibility
+
+tasks.withType(JavaCompile){
+    options.encoding = defaultEncoding
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'}
+
+// coverage
+jacoco {
+    toolVersion = "0.7.+"
+}
+
+task codeCoverageReport(type: JacocoReport, dependsOn: 'test') {
+    executionData fileTree(project.rootDir.absolutePath).include("**/build/jacoco/*.exec")
+
+    sourceSets sourceSets.main
+
+    reports {
+        xml.enabled = true
+        xml.destination "${buildDir}/reports/jacoco/report.xml"
+        html.enabled = false
+        csv.enabled = false
+    }
+}
