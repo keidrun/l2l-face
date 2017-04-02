@@ -1,6 +1,11 @@
 # java
 *.class
 
+# Package Files #
+*.jar
+*.war
+*.ear
+
 # eclipse
 .classpath
 .project
@@ -14,12 +19,7 @@ build/*
 !build/build.xml
 
 # maven
-target
-
-# Package Files #
-*.jar
-*.war
-*.ear
+target/
 
 # others
 *.log
