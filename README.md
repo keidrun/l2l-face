@@ -3,7 +3,7 @@
 [![tests][tests]][tests-url]
 [![coverage][cover]][cover-url]
 
-L2L (Language To Language: Program conversion command) Plugin interfaces.
+L2L (Language To Language: Program conversion command) Plugin Interfaces
 
 ## Getting Started Developing the L2L Plugin
 Please follow the below steps to develop your L2L plugin.
@@ -15,6 +15,18 @@ You add the following configuration to your `build.gradle` file. `${version}` is
 ```groovy
 repositories {
     jcenter()
+}
+
+dependencies {
+    compile "com.keidrun.l2l-face:l2l-face:${version}"
+}
+```
+
+Or
+
+```groovy
+repositories {
+    jcenter()
 
     maven {
         url "http://dl.bintray.com/keidrun/l2l-face"
@@ -22,13 +34,13 @@ repositories {
 }
 
 dependencies {
-    compile "com.keidrun:l2l-face:${version}"
+    compile "com.keidrun.l2l-face:l2l-face:${version}"
 }
 ```
 
 ### Step 2: Implement interfaces
 
-You need implement the following interfaces as L2L plugin.
+You need implement the following interface as the L2L plugin.
 
 ```java
 com.keidrun.l2l.face.plugin.ConvertPlugin

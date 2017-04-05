@@ -14,7 +14,7 @@ apply plugin: "jacoco"
 apply plugin: "maven-publish"
 apply plugin: "ivy-publish"
 
-group "com.keidrun"
+group "com.keidrun.l2l-face"
 //version = "0.0.1.M1"  //gradle -Pversion=0.0.1.M1 bintrayUpload
 def tag = "v${project.version}"
 def productName = "L2L Plugin Interfaces"
