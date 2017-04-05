@@ -4,17 +4,17 @@
 package com.keidrun.l2l.face.element;
 
 /**
- * Programming Languages
+ * Programming languages.
  * 
  * @author Keid
  */
 public enum Language {
 
-    // Not defined language
+    // Not defined language.
     NOT_DEFINED("None", "Not defined"),
 
     // @formatter:off
-    // Programming languages beginning with A
+    // Programming languages beginning with A.
     A_SHARP_DOT_NET("A#"),A_SHARP_AXIOM("A#-Axiom"),A_0("A-0"),A_PLUS("A+"),A_PLUS_PLUS("A++"),
     ABAP("ABAP"),ABC("ABC"),ABC_ALGOL("ABC-ALGOL"),ABSET("ABSET"),ABSYS("ABSYS"),ACC("ACC"),
     ACCENT("Accent"),ACE("Ace"),ACL2("ACL2"),ACICSOFT("Avicsoft"),ACT_3("ACT-III"),
@@ -30,13 +30,13 @@ public enum Language {
     AUTO_IT("AutoIt"),AUTO_LISP("AutoLISP"),VISUAL_LISP("Visual-LISP"),AVEREST("Averest"),AWK("AWK"),
     AXUM("Axum"),ACTIVE_SERVER_PAGES("Active-Server-Pages"),ASP_DOT_NET("ASP"),
 
-    // Programming languages beginning with B
+    // Programming languages beginning with B.
     B("B"),BABBAGE("Babbage"),BASH("Bash"),BASIC("BASIC"),bc("bc"),BCPL("BCPL"),BEAN_SHELL("BeanShell"),
     BATCH("Batch","Bat"),BERTRAND("Bertrand"),BETA("BETA"),BISTRO("Bistro"),BIT_C("BitC"),BLISS("BLISS"),
     BLOCKLY("Blockly"),BLOO_P("BlooP"),BOO("Boo"),BOOMERANG("Boomerang"),BOURNE_SHELL("BourneShell"),
     BREW("BREW"),BPEL("BPEL"),BUSINESS_BASIC("BusinessBasic"),
 
-    // Programming languages beginning with C
+    // Programming languages beginning with C.
     C("C"),C_MINUS_MINUS("C--"),C_PLUS_PLUS("C++"),C_SHARP("C#"),C_AL("C/AL"),CACHE("Cache"),C_SHELL("C-Shell"),
     CAML("Caml"),CAYENNE("Cayenne"),C_DUCE("CDuce"),CECIL("Cecil"),CESIL("Cesil"),CEU("Ceu"),CEYLON("Ceylon"),
     CF_ENGINE("CFEngine"),CFML("CFML"),CG("Cg"),CH("Ch"),CHAPEL("Chapel"),CHARITY("Charity"),CHARM("Charm"),
@@ -50,13 +50,13 @@ public enum Language {
     COWSEL("COWSEL"),CPL("CPL"),CRYPTOL("Cryptol"),CSH("csh"),C_SOUND("Csound"),CSP("CSP"),CUDA("CUDA"),
     CURL("Curl"),CURRY("Curry"),CYBIL("Cybil"),CYCLONE("Cyclone"),CYTHON("Cython"),
 
-    // Programming languages beginning with D
+    // Programming languages beginning with D.
     D("D"),DASL("DASL"),DASL_DISTRIBUTED("DASL-Distributed"),DART("Dart"),DATA_FLEX("DataFlex"),
     DATALOG("Datalog"),DATATRIEVE("DATATRIEVE"),D_BASE("dBase"),DC("dc"),DCL("DCL"),DEESEL("Deesel"),
     DELPHI("Delphi"),DINK_C("DinkC"),DIBOL("DIBOL"),DOG("Dog"),DRACO("Draco"),
     DRAKON("DRAKON"),DYLAN("Dylan"),DYNAMO("DYNAMO"),
 
-    // Programming languages beginning with E
+    // Programming languages beginning with E.
     E("E"),E_SHARP("E#"),EAR_SKETCH("EarSketch"),EASE("Ease"),EASY_PLI("Easy-PL/I"),EASY("Easy"),
     EASYTRIEVE_PLUS("EASYTRIEVE-PLUS"),ECMA_SCRIPT("ECMAScript"),EDINBURGH_IMP("Edinburgh-IMP"),
     EGL("EGL"),EIFFEL("Eiffel"),ELAN("ELAN"),ELIXIR("Elixir"),ELM("Elm"),EMACS_LISP("Emacs-Lisp"),
@@ -65,7 +65,7 @@ public enum Language {
     EUPHORIA("Euphoria"),EUS_LISP_ROBOT("EusLisp-Robot"),CMS_EXEC("CMS-EXEC"),
     EXEC_2("EXEC-2"),EXECUTABLE_UML("Executable-UML"),
 
-    // Programming languages beginning with F
+    // Programming languages beginning with F.
     F("F"),F_SHARP("F#"),F_STAR("F*"),FACTOR("Factor"),FALCON("Falcon"),FANTOM("Fantom"),
     FAUST("FAUST"),FFP("FFP"),FJOLNIR("Fjolnir"),FL("FL"),FLAVORS("Flavors"),FLEX("Flex"),
     F_LOOP("FlooP"),FLOW_MATIC("FLOW-MATIC"),FOCAL("FOCAL"),FOCUS("FOCUS"),FOIL("FOIL"),
@@ -73,7 +73,7 @@ public enum Language {
     FORTRESS("Fortress"),FOX_BASE("FoxBase"),FOX_PRO("FoxPro"),FP("FP"),
     FRANZ_LISP("Franz-Lisp"),FREGE("Frege"),F_SCRIPT("F-Script"),
 
-    // Programming languages beginning with G
+    // Programming languages beginning with G.
     G("G"),GAME_MAKER_LANGUAGE("Game-Maker-Language"),GAME_MONKEY_SCRIPT("GameMonkey-Script"),
     GAMS("GAMS"),GAP("GAP"),G_CODE("G-code"),GD_SCRIPT("GDScript"),GENIE("Genie"),
     GDL("GDL"),GJ("GJ"),GEORGE("GEORGE"),GLSL("GLSL"),GNU_E("GNU-E"),GM("GM"),GO("Go"),
@@ -81,32 +81,32 @@ public enum Language {
     GOOGLE_APPS_SCRIPT("Google-Apps-Script"),GOSU("Gosu"),GOTRAN("GOTRAN"),
     GPSS("GPSS"),GRAPH_TALK("GraphTalk"),GRASS("GRASS"),GROOVY("Groovy"),
 
-    // Programming languages beginning with H
+    // Programming languages beginning with H.
     HACK("Hack"),HAGGIS("HAGGIS"),HAL_S("HAL/S"),HAMILTON_C_SHELL("Hamilton-C-shell"),HARBOUR("Harbour"),
     HARTMANN_PIPELINES("Hartmann-pipelines"),HASKELL("Haskell"),HAXE("Haxe"),HERMES("Hermes"),
     HIGH_LEVEL_ASSEMBLY("High-Level-Assembly"),HLSL("HLSL"),HOP("Hop"),HOPSCOTCH("Hopscotch"),
     HOPE("Hope"),HUGO("Hugo"),HUME("Hume"),HYPERTALK("HyperTalk"),
 
-    // Programming languages beginning with I
+    // Programming languages beginning with I.
     IBM_BASIC_ASSEMBLY("IBM-Basic-assembly"),IBM_HASCRIPT("IBM-HAScript"),IBM_INFORMIX_4GL("IBM-Informix-4GL"),
     IBM_RPG("IBM-RPG"),ICI("ICI"),ICON("Icon"),ID("Id"),IDL("IDL"),IDRIS("Idris"),IMP("IMP"),
     INFORM("Inform"),INTERLISP("INTERLISP"),IO("Io"),IOKE("Ioke"),IPL("IPL"),
     IPTSCRAE("IPTSCRAE"),ISLISP("ISLISP"),ISPF("ISPF"),ISWIM("ISWIM"),
 
-    // Programming languages beginning with J
+    // Programming languages beginning with J.
     J("J"),J_SHARP("J#"),J_PLUS_PLUS("J++"),JADE("JADE"),JAL("JAL"),
     JANUS_CONCURRENT("Janus-concurrent"),JANUS_TIME_REVERSIBLE("Janus-time-reversible"),JASS("JASS"),
     JAVA("Java"),JAVA_SCRIPT("JavaScript"),JCL("JCL"),JEAN("JEAN"),JOIN_JAVA("Join-Java"),JOSS("JOSS"),
     JOULE("Joule"),JOVIAL("JOVIAL"),JOY("Joy"),J_SCRIPT("JScript"),J_SCRIPT_DOT_NET("JScript-.NET"),
     JAVA_FX_SCRIPT("JavaFX Script"),JULIA("Julia"),JYTHONE("Jython"),
 
-    // Programming languages beginning with K
+    // Programming languages beginning with K.
     K("K"),KALEIDOSCOPE("Kaleidoscope"),KAREL("Karel"),KAREL_PLUS_PLUS("Karel++"),
     KEE("KEE"),KIXTART("Kixtart"),KLERER_MAY_SYSTEM("Klerer-May-System"),
     KIF("KIF"),KOJO("Kojo"),KOTLIN("Kotlin"),KRC("KRC"),KRL("KRL"),
     KUKA_ROBOT_LANGUAGE("KUKA-Robot-Language"),KRYPTON("KRYPTON"),KSH("ksh"),
 
-    // Programming languages beginning with L
+    // Programming languages beginning with L.
     L("L"),L_SHARP_DOT_NET("L#-.NET"),LAB_VIEW("LabVIEW"),LADDER("Ladder"),LAGOONA("Lagoona"),
     LANSA("LANSA"),LASSO("Lasso"),LAVA("Lava"),LC_3("LC-3"),LEDA("Leda"),LEGOSCRIPT("Legoscript"),
     LIL("LIL"),LILY_POND("LilyPond"),LIMBO("Limbo"),LIMNOR("Limnor"),LINC("LINC"),LINGO("Lingo"),
@@ -115,7 +115,7 @@ public enum Language {
     LPC("LPC"),LSE("LSE"),LSL("LSL"),LIVE_SCRIPT("LiveScript"),LUA("Lua"),
     LUCID("Lucid"),LUSTRE("Lustre"),LY_A_PAS("LYaPAS"),LYNX("Lynx"),
 
-    // Programming languages beginning with M
+    // Programming languages beginning with M.
     M2001("M2001"),M4("M4"),M_SHARP("M#"),MACHINE_CODE("Machine-code"),MAD("MAD"),MAD_I("MAD/I"),
     MAGIK("Magik"),MAGMA("Magma"),MAKE("make"),MAUDE_SYSTEM("Maude-system"),MAPLE("Maple"),
     MAPPER("MAPPER"),MARK_IV("MARK-IV"),MARY("Mary"),MASM_MICROSOFT_ASSEMBLY_X86("MASM-Microsoft-Assembly-x86"),
@@ -127,7 +127,7 @@ public enum Language {
     MODULA_3("Modula-3"),MOHOL("Mohol"),MOO("MOO"),MORTRAN("Mortran"),MOUSE("Mouse"),
     MPD("MPD"),MATHCAD("Mathcad"),MSIL("MSIL"),MSL("MSL"),MUMPS("MUMPS"),MPL("MPL"),
 
-    // Programming languages beginning with N
+    // Programming languages beginning with N.
     NASM("NASM"),NAPIER88("Napier88"),NEKO("Neko"),NEMERLE("Nemerle"),NES_C("nesC"),NESL("NESL"),
     NET_DOT_DATA("Net.Data"),NET_LOGO("NetLogo"),NET_REXX("NetRexx"),NEW_LISP("NewLISP"),
     NEWP("NEWP"),NEWSPEAK("Newspeak"),NEWTONSCRIPT("NewtonScript"),NGL("NGL"),NIAL("Nial"),
@@ -135,7 +135,7 @@ public enum Language {
     NSIS("NSIS"),NU("Nu"),NUMPY("Numpy"),NW_SCRIPT("NWScript"),NXT_G("NXT-G"),
     NPL_NEURAL_PARALLEL("NPL-Neural-parallel"),
 
-    // Programming languages  beginning with O
+    // Programming languages  beginning with O.
     O_COLON_XML("o:XML"),OAK("Oak"),OBERON("Oberon"),OBJ2("OBJ2"),OBJECT_LISP("Object-Lisp"),
     OBJECT_LOGO("ObjectLOGO"),OBJECT_REXX("Object-REXX"),OBJECT_PASCAL("Object-Pascal"),
     OBJECTIVE_C("Objective-C"),OBJECTIVE_J("Objective-J"),OBLIQ("Obliq"),OCAML("OCaml"),
@@ -145,7 +145,7 @@ public enum Language {
     ORCA_MODULA_2("ORCA/Modula-2"),ORIEL("Oriel"),ORWELL("Orwell"),OXYGENE("Oxygene"),
     OZ("Oz"),
 
-    // Programming languages beginning with P
+    // Programming languages beginning with P.
     P_APOSTROPHE_APOSTROPHE("P''"),P_SHARP("P#"),PARA_SAIL("ParaSail"),PARI_GP("PARI/GP"),
     PASCAL("Pascal"),PCASTL("PCASTL"),PCF("PCF"),PEARL("PEARL"),PEOPLE_CODE("PeopleCode"),
     PERL("Perl"),PDL("PDL"),PERL_6("Perl-6"),PHARO("Pharo"),PHP("PHP"),PICO("Pico"),
@@ -160,17 +160,17 @@ public enum Language {
     PROTEL("PROTEL"),PROVIDE_X("ProvideX"),PRO_STAR_C("Pro*C"),PURE("Pure"),
     PURE_DATA("Pure-Data"),PYTHON("Python"),
 
-    // Programming languages beginning with Q
+    // Programming languages beginning with Q.
     Q("Q"),Q_KX("Q-Kx"),QALB("Qalb"),QT_SCRIPT("QtScript"),
     QUAKE_C("QuakeC"),QPL("QPL"),
 
-    // Programming languages beginning with R
+    // Programming languages beginning with R.
     R("R"),R_PLUS_PLUS("R++"),RACKET("Racket"),RAPID("RAPID"),RAPIRA("Rapira"),RATFIV("Ratfiv"),
     RATFOR("Ratfor"),RC("rc"),REBOL("REBOL"),RED("Red"),REDCODE("Redcode"),REFAL("REFAL"),
     REIA("Reia"),REXX("REXX"),RLAB("Rlab"),ROOP("ROOP"),RPG("RPG"),RPL("RPL"),RSL("RSL"),
     RTL_2("RTL/2"),RUBY("Ruby"),RUNE_SCRIPT("RuneScript"),RUST("Rust"),
 
-    // Programming languages beginning with S
+    // Programming languages beginning with S.
     S("S"),S2("S2"),S3("S3"),S_LANG("S-Lang"),S_PLUS("S-PLUS"),SA_C("SA-C"),SABRE_TALK("SabreTalk"),
     SAIL("SAIL"),SALSA("SALSA"),SAM76("SAM76"),SAS("SAS"),SASL("SASL"),SATHER("Sather"),
     SAWZALL("Sawzall"),SBL("SBL"),SCALA("Scala"),SCHEME("Scheme"),SCILAB("Scilab"),SCRATCH("Scratch"),
@@ -186,7 +186,7 @@ public enum Language {
     SWIFT("Swift"),SWIFT_PARALLEL("Swift-parallel"),SYMPL("SYMPL"),SYMSYN("Symsyn"),
     SYNC_CHARTS("SyncCharts"),SYSTEM_VERILOG("SystemVerilog"),
 
-    // Programming languages beginning with T
+    // Programming languages beginning with T.
     T("T"),TACL("TACL"),TACPOL("TACPOL"),TADS("TADS"),TAL("TAL"),TCL("Tcl"),TEA("Tea"),
     TECO("TECO"),TELCOMP("TELCOMP"),TEX("TeX"),TEXT_EXECUTIVE_LANGUAGE("Text-Executive-Programming-Language"),
     TIE("TIE"),TIMBER("Timber"),TMG("TMG"),TOM_PATTERN_MATCHING("Tom-pattern-matching"),TOM("TOM"),
@@ -194,11 +194,11 @@ public enum Language {
     T_SQL("T-SQL"),TRANSCRIPT("Transcript"),TTCN("TTCN"),TURING("Turing"),TUTOR("TUTOR"),
     TXL("TXL"),TYPE_SCRIPT("TypeScript"),TURBO_C_PLUS_PLUS("Turbo-C++"),
 
-    // Programming languages beginning with U
+    // Programming languages beginning with U.
     UBERCODE("Ubercode"),UCSD_PASCAL("UCSD-Pascal"),UMPLE("Umple"),UNICON("Unicon"),
     UNIFACE("Uniface"),UNITY("UNITY"),UNIX_SHELL("Unix-shell"),UNREAL_SCRIPT("UnrealScript"),
 
-    // Programming languages beginning with V
+    // Programming languages beginning with V.
     VALA("Vala"),VERILOG("Verilog"),VHDL("VHDL"),Visual_Basic("Visual-Basic"),
     VISUAL_BASIC_DOT_NET("Visual-Basic-.NET"),VISUAL_DATA_FLEX("Visual-DataFlex"),
     VISUAL_DIALOG_SCRIPT("Visual-DialogScript"),VISUAL_FORTRAN("Visual-Fortran"),
@@ -206,40 +206,40 @@ public enum Language {
     VISUAL_J_SHARP("Visual-J#"),VISUAL_OBJECTS("Visual-Objects"),
     VISUAL_PROLOG("Visual-Prolog"),VSXU("VSXu"),VVVV("vvvv"),
 
-    // Programming languages beginning with W
+    // Programming languages beginning with W.
     WATFIV("WATFIV"),WATFOR("WATFOR"),WEB_DNA("WebDNA"),WEB_QL("WebQL"),WHILEY("Whiley"),
     WINDOWS_POWER_SHELL("Windows-PowerShell"),WINBATCH("Winbatch"),
     WOLFRAM_LANGUAGE("Wolfram-Language"),WYVERN("Wyvern"),
 
-    // Programming languages beginning with X
+    // Programming languages beginning with X.
     XBL("XBL"),XC("XC"),X_HARBOUR("xHarbour"),XL("XL"),XOJO("Xojo"),XOTCL("XOTcl"),
     XPL("XPL"),XPL0("XPL0"),XQUERY("XQuery"),XSB("XSB"),X_SHARP("XSharp"),
     XSLT("XSLT"),XTEND("Xtend"),
 
-    // Programming languages beginning with W
+    // Programming languages beginning with W.
     YORICK("Yorick"),YQL("YQL"),YOIX("Yoix"),
 
-    // Programming languages beginning with Z
+    // Programming languages beginning with Z.
     Z_NOTATION("Z-notation"),ZENO("Zeno"),ZOPL("ZOPL"),ZSH("Zsh"),ZPL("ZPL");
     // @formatter:on
 
     /**
-     * Language names
+     * Language's names.
      */
     private String[] names;
 
     /**
-     * Constructor
+     * Constructor.
      * 
      * @param names
-     *            language names
+     *            language's names
      */
     private Language(String... names) {
         this.names = names;
     }
 
     /**
-     * Get language's names
+     * Get language's names.
      * 
      * @return the language's names
      */
@@ -248,7 +248,7 @@ public enum Language {
     }
 
     /**
-     * Get the language enum from the language's name
+     * Get the language enum from the language's name.
      * 
      * @param name
      *            the language's name

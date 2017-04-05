@@ -5,12 +5,18 @@
 
 L2L (Language To Language: Program conversion command) Plugin Interfaces
 
-## Getting Started Developing the L2L Plugin
+## Getting Started with Developing Your L2L Plugin
 Please follow the below steps to develop your L2L plugin.
 
-### Step 1: Add the configuration to your Gradle build script
+### Step 1: Make your plugin application for the Gradle application
 
-You add the following configuration to your `build.gradle` file. `${version}` is release version.
+Your application's name need follow the naming rule.
+
+The naming rule is simple. Please use `l2l-XxxxxToYyyyy-plugin` if you covert `Xxxxx` language to `Yyyyy` language.
+
+### Step 2: Add the configuration to your Gradle build script
+
+You add the following configuration to your `build.gradle` file. `${version}` is the release version.
 
 ```groovy
 repositories {
@@ -38,7 +44,7 @@ dependencies {
 }
 ```
 
-### Step 2: Implement interfaces
+### Step 3: Implement interfaces
 
 You need implement the following interface as the L2L plugin.
 
@@ -46,7 +52,7 @@ You need implement the following interface as the L2L plugin.
 com.keidrun.l2l.face.plugin.ConvertPlugin
 ```
 
-### Step 3: Publish your plugin
+### Step 4: Publish your plugin
 
 Please publish your L2L plugin to `Jcenter` or `Maven Central Repository` or both.
 

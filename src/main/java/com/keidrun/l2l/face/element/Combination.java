@@ -4,47 +4,47 @@
 package com.keidrun.l2l.face.element;
 
 /**
- * Combination of languages
+ * Combination of the origin language and the destination language.
  * 
  * @author Keid
  */
 public class Combination {
 
     /**
-     * Programming language before conversion
+     * Programming language before conversion.
      */
-    private Language from;
+    private Language origin;
 
     /**
-     * Programming language after conversion
+     * Programming language after conversion.
      */
-    private Language to;
+    private Language dest;
 
     /**
-     * Constructor
+     * Constructor.
      * 
-     * @param from
-     *            a language before conversion
-     * @param to
-     *            a language after conversion
+     * @param origin
+     *            the origin
+     * @param dest
+     *            the destination
      */
-    public Combination(Language from, Language to) {
-        this.from = from;
-        this.to = to;
+    public Combination(Language origin, Language dest) {
+        this.origin = origin;
+        this.dest = dest;
     }
 
     /**
-     * @return the from
+     * @return the origin
      */
-    public Language getFrom() {
-        return from;
+    public Language origin() {
+        return origin;
     }
 
     /**
-     * @return the to
+     * @return the destination
      */
-    public Language getTo() {
-        return to;
+    public Language dest() {
+        return dest;
     }
 
 }

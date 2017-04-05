@@ -20,8 +20,8 @@ public class CombinationTest {
         Combination sut = new Combination(Language.BATCH, Language.BASH);
 
         // verify
-        assertThat(sut.getFrom(), is(Language.BATCH));
-        assertThat(sut.getTo(), is(Language.BASH));
+        assertThat(sut.origin(), is(Language.BATCH));
+        assertThat(sut.dest(), is(Language.BASH));
 
     }
 

@@ -1,12 +1,12 @@
 /**
  * Copyright 2017 Keid
 */
-package com.keidrun.l2l.face.plugin;
+package com.keidrun.l2l.face.plugins;
 
 import com.keidrun.l2l.face.element.Combination;
 
 /**
- * Program conversion plugin
+ * Program conversion plugin.
  * 
  * @author Keid
  */
@@ -16,7 +16,7 @@ public interface ConvertPlugin {
      * If this supports the combination.
      * 
      * @param combination
-     *            a combination of two programming languages.
+     *            the combination of two programming languages.
      * @return if this supports the combination.
      */
     public boolean isSupported(Combination combination);
@@ -25,9 +25,10 @@ public interface ConvertPlugin {
      * Convert the programming language to other programming language.
      * 
      * @param combination
-     *            a combination of two programming languages.
+     *            the combination of the origin language and the destination
+     *            language.
      * @param program
-     *            a program file.
+     *            the program file.
      */
     public void convert(Combination combination, String program);
 
