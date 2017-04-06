@@ -29,7 +29,8 @@ public interface ConvertPlugin {
      *            language.
      * @param program
      *            the program file.
+     * @return the converted program file.
      */
-    public void convert(Combination combination, String program);
+    public String convert(Combination combination, String program);
 
 }
